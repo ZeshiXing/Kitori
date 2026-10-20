@@ -35,8 +35,11 @@ while True: time.sleep(.1)
 class ShutdownProcessTests(unittest.TestCase):
     def test_restart_preserves_settings_and_exit_cleans_orphans_without_touching_another_project(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)/'caption-project'
-            other = Path(directory)/'another-project'
+            # Windows runners may expose TEMP with an 8.3 alias. Production
+            # lifecycle requests resolve their root before starting children.
+            temporary_root = Path(directory).resolve()
+            root = temporary_root/'caption-project'
+            other = temporary_root/'another-project'
             for folder in (root,other):
                 (folder/'scripts').mkdir(parents=True)
                 (folder/'logs').mkdir()

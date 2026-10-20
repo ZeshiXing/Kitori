@@ -21,7 +21,7 @@ dependencies = ["requests>=2.32,<3", "SudachiPy>=0.6,<0.7", "SudachiDict-small>=
 
 [project.optional-dependencies]
 reazon = ["sherpa-onnx==1.13.3", "numpy>=2,<3"]
-dev = ["build>=1,<2"]
+dev = ["build>=1,<2", "numpy>=2,<3"]
 
 [tool.setuptools]
 include-package-data = false

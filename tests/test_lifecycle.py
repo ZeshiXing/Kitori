@@ -9,7 +9,7 @@ from jcaption.lifecycle import request_exit, request_restart
 class LifecycleTests(unittest.TestCase):
     def test_restart_captures_launcher_errors_and_keeps_autoplay_disabled(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
+            root = Path(directory).resolve()
             launch = root/'scripts/launch.ps1'
             launch.parent.mkdir()
             launch.write_text('# fixture',encoding='utf-8')
@@ -23,7 +23,7 @@ class LifecycleTests(unittest.TestCase):
 
     def test_exit_requests_full_shutdown_with_the_project_path(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
+            root = Path(directory).resolve()
             stop = root / 'scripts/stop.ps1'
             stop.parent.mkdir()
             stop.write_text('# fixture',encoding='utf-8')
