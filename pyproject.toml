@@ -5,12 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "japanese-caption-assistant"
 version = "0.3.0"
-description = "Kitori: real-time Japanese captions with furigana for desktop audio and language learning"
+description = "Kitori: real-time Japanese subtitles and live captions with furigana for desktop audio"
 readme = "README.md"
 license = "GPL-3.0-only"
 license-files = ["LICENSE"]
 requires-python = ">=3.11"
-keywords = ["japanese", "japanese-learning", "furigana", "real-time-captions", "speech-recognition", "desktop"]
+keywords = ["japanese", "japanese-learning", "furigana", "real-time-captions", "japanese-subtitles", "speech-recognition", "desktop"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Operating System :: Microsoft :: Windows",

@@ -13,7 +13,7 @@
 | Markdown | 小写 `kebab-case` | `local-models.md` |
 | Windows 用户入口 | `Start-<Output>.cmd`，单操作保留简单名 | `Start-Luna.cmd`、`Settings.cmd`、`Stop.cmd` |
 
-保留惯例文件名 `README.md`、`CONTRIBUTING.md`、`THIRD_PARTY.md`、`AGENTS.md`、`LICENSE`、`pyproject.toml`、`requirements-lock.txt`。项目显示名为 **Kitori（キトリ）**，发布文件使用 `Kitori-Setup.exe` 与 `Kitori-Source.zip`。现有 Python 分发标识 `japanese-caption-assistant`、导入名 `jcaption`、配置字段、Luna 注入标记和模型 ID 保持兼容，不随品牌名称调整。
+保留惯例文件名 `README.md`、`CONTRIBUTING.md`、`THIRD_PARTY.md`、`AGENTS.md`、`LICENSE`、`pyproject.toml`、`requirements-lock.txt`。项目完整显示名为 **Kitori：日语实时字幕与振假名**（英文 **Kitori: Real-time Japanese Subtitles with Furigana**，日文 **Kitori：ふりがな付き日本語リアルタイム字幕**），发布文件使用 `Kitori-Setup.exe` 与 `Kitori-Source.zip`。现有 Python 分发标识 `japanese-caption-assistant`、导入名 `jcaption`、配置字段、Luna 注入标记和模型 ID 保持兼容，不随品牌名称调整。
 
 主页译文使用 `README.en.md` 与 `README.ja.md`，根目录 `README.md` 为中文。文档截图放 `docs/images/`，使用小写 `kebab-case` 的功能描述名；素材署名集中在该目录的 `sources.md`，各语言主页在图片附近链接它。
 

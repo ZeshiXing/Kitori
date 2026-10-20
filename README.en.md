@@ -1,10 +1,10 @@
-# Kitori: Real-time Japanese Captions with Furigana
+# Kitori: Real-time Japanese Subtitles with Furigana
 
 [简体中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
 
 Kitori (キトリ) is a shortened form of *kikitori* (聞き取り), Japanese for listening comprehension.
 
-A Windows caption tool for people learning Japanese through videos and anime.
+Real-time Japanese subtitles (live captions) with furigana for Windows desktop audio, for people learning Japanese through videos and anime.
 
 It listens to the audio playing on your computer and displays Japanese captions in a floating window, with furigana above the kanji. You can check the original words when you miss a line, or look at the readings when you come across unfamiliar kanji. If you already use LunaTranslator, you can send the captions there and use its dictionary and translation features.
 
