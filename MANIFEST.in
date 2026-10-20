@@ -1,0 +1,16 @@
+include README*.md CONTRIBUTING.md THIRD_PARTY.md LICENSE
+include requirements-lock.txt *.cmd
+include .editorconfig .gitattributes .gitignore
+recursive-include scripts *.py *.ps1 *.cs *.json
+recursive-include plugins *.py
+recursive-include tools *.py *.ps1 *.md
+recursive-include tests *.py
+recursive-include docs *.md
+recursive-include docs/images *.png
+recursive-include .github *.yml
+recursive-exclude config *
+include config/caption.example.json
+prune docs/upstream
+prune docs/experiments
+exclude AGENTS.md
+global-exclude __pycache__ *.py[cod] .env* *.key *.pem *.pfx *.p12 *.har .pypirc pip.ini .install.lock .jcaption-install.json

@@ -1,0 +1,702 @@
+{
+  "字幕设置": {
+    "ja": "字幕設定",
+    "en": "Caption settings"
+  },
+  "面板语言": {
+    "ja": "表示言語",
+    "en": "Interface language"
+  },
+  "识别与语言": {
+    "ja": "認識と言語",
+    "en": "Recognition & language"
+  },
+  "显示": {
+    "ja": "表示",
+    "en": "Display"
+  },
+  "文字": {
+    "ja": "文字",
+    "en": "Text"
+  },
+  "独立字幕浮窗": {
+    "ja": "独立した字幕ウィンドウ",
+    "en": "Standalone caption overlay"
+  },
+  "Luna 字幕框": {
+    "ja": "Luna 字幕ウィンドウ",
+    "en": "Luna caption window"
+  },
+  "两者同时显示": {
+    "ja": "両方に表示",
+    "en": "Show both"
+  },
+  "字幕显示端": {
+    "ja": "字幕の表示先",
+    "en": "Caption output"
+  },
+  "本地模型": {
+    "ja": "ローカルモデル",
+    "en": "Local model"
+  },
+  "Windows Live Captions · 系统实时字幕": {
+    "ja": "Windows Live Captions · システム字幕",
+    "en": "Windows Live Captions · System captions"
+  },
+  "识别来源": {
+    "ja": "認識ソース",
+    "en": "Recognition source"
+  },
+  "Windows 来源不加载本地模型。识别语言请在系统实时字幕中设置；下方语言用于注音。\n首次使用需要下载语言包；完成后可最小化系统字幕窗口。": {
+    "ja": "Windows 使用時はローカルモデルを読み込みません。認識言語はシステム字幕で設定し、下の言語はふりがなに使用します。\n初回は言語パックのダウンロードが必要です。設定後はシステム字幕を最小化できます。",
+    "en": "Windows captions do not load a local model. Set recognition language in Windows; the language below controls furigana.\nDownload a language pack on first use, then you can minimize the system captions window."
+  },
+  "打开 Windows 实时字幕设置窗口": {
+    "ja": "Windows リアルタイム字幕を開く",
+    "en": "Open Windows Live Captions"
+  },
+  "STT 识别语言": {
+    "ja": "音声認識の言語",
+    "en": "Speech recognition language"
+  },
+  "识别语言": {
+    "ja": "認識言語",
+    "en": "Recognition language"
+  },
+  "Default / 自动检测": {
+    "ja": "Default / 自動検出",
+    "en": "Default / Auto-detect"
+  },
+  "日语": {
+    "ja": "日本語",
+    "en": "Japanese"
+  },
+  "英语": {
+    "ja": "英語",
+    "en": "English"
+  },
+  "中文": {
+    "ja": "中国語",
+    "en": "Chinese"
+  },
+  "韩语": {
+    "ja": "韓国語",
+    "en": "Korean"
+  },
+  "法语": {
+    "ja": "フランス語",
+    "en": "French"
+  },
+  "德语": {
+    "ja": "ドイツ語",
+    "en": "German"
+  },
+  "西班牙语": {
+    "ja": "スペイン語",
+    "en": "Spanish"
+  },
+  "俄语": {
+    "ja": "ロシア語",
+    "en": "Russian"
+  },
+  "意大利语": {
+    "ja": "イタリア語",
+    "en": "Italian"
+  },
+  "葡萄牙语": {
+    "ja": "ポルトガル語",
+    "en": "Portuguese"
+  },
+  "阿拉伯语": {
+    "ja": "アラビア語",
+    "en": "Arabic"
+  },
+  "已就绪": {
+    "ja": "準備完了",
+    "en": "Ready"
+  },
+  "需准备运行环境": {
+    "ja": "実行環境の準備が必要",
+    "en": "Runtime required"
+  },
+  "需下载": {
+    "ja": "ダウンロードが必要",
+    "en": "Download required"
+  },
+  "本地 STT 模型": {
+    "ja": "ローカル音声認識モデル",
+    "en": "Local STT model"
+  },
+  "快速 · 1 个候选": {
+    "ja": "高速 · 候補 1 個",
+    "en": "Fast · 1 candidate"
+  },
+  "平衡 · 3 个候选": {
+    "ja": "バランス · 候補 3 個",
+    "en": "Balanced · 3 candidates"
+  },
+  "高 · 5 个候选，计算更慢": {
+    "ja": "高精度 · 候補 5 個、処理が遅くなります",
+    "en": "High · 5 candidates, slower"
+  },
+  "Whisper 草稿识别精度": {
+    "ja": "Whisper 暫定認識の精度",
+    "en": "Whisper draft accuracy"
+  },
+  "Whisper 草稿精度": {
+    "ja": "Whisper 暫定結果の精度",
+    "en": "Whisper draft quality"
+  },
+  "采用 Whisper 标准温度回退和段内上下文（可能增加耗时）": {
+    "ja": "Whisper 標準の温度フォールバックと区間内の文脈を使用（処理時間が増える場合があります）",
+    "en": "Use standard Whisper temperature fallback and segment context (may be slower)"
+  },
+  "Whisper 标准解码": {
+    "ja": "Whisper 標準デコード",
+    "en": "Standard Whisper decoding"
+  },
+  "Vulkan · 兼容 GPU，速度可能不足": {
+    "ja": "Vulkan · 幅広い GPU に対応、速度が不足する場合あり",
+    "en": "Vulkan · Broad GPU support, may be slow"
+  },
+  "CUDA 13.3 · NVIDIA 推荐，需兼容驱动": {
+    "ja": "CUDA 13.3 · NVIDIA 推奨、対応ドライバーが必要",
+    "en": "CUDA 13.3 · Recommended for NVIDIA, compatible driver required"
+  },
+  "Qwen 和 Voxtral 推理设备": {
+    "ja": "Qwen と Voxtral の推論デバイス",
+    "en": "Qwen and Voxtral inference device"
+  },
+  "Qwen / Voxtral 设备": {
+    "ja": "Qwen / Voxtral デバイス",
+    "en": "Qwen / Voxtral device"
+  },
+  "自动优先独立显卡": {
+    "ja": "自動（専用 GPU を優先）",
+    "en": "Auto (prefer dedicated GPU)"
+  },
+  "Qwen 和 Voxtral 设备编号": {
+    "ja": "Qwen と Voxtral のデバイス番号",
+    "en": "Qwen and Voxtral device index"
+  },
+  "设备编号": {
+    "ja": "デバイス番号",
+    "en": "Device index"
+  },
+  " 秒（0 关闭）": {
+    "ja": " 秒（0 で無効）",
+    "en": " s (0 disables)"
+  },
+  " 秒（0 不清空）": {
+    "ja": " 秒（0 で消去しない）",
+    "en": " s (0 keeps captions)"
+  },
+  " 秒": {
+    "ja": " 秒",
+    "en": " s"
+  },
+  " 倍": {
+    "ja": " 倍",
+    "en": " ×"
+  },
+  "本地流式更新间隔": {
+    "ja": "ローカル音声の更新間隔",
+    "en": "Local streaming update interval"
+  },
+  "音频更新间隔": {
+    "ja": "音声の更新間隔",
+    "en": "Audio update interval"
+  },
+  "屏蔽幻觉词汇": {
+    "ja": "ハルシネーション語句を除去",
+    "en": "Filter hallucinated phrases"
+  },
+  "Whisper 屏蔽幻觉词汇": {
+    "ja": "Whisper ハルシネーション語句フィルター",
+    "en": "Whisper hallucination phrase filter"
+  },
+  "编辑屏蔽词表…": {
+    "ja": "除去する語句を編集…",
+    "en": "Edit phrase blocklist…"
+  },
+  "Default 自动判断语言；日语专用模型按日语识别。\n模型和识别语言设置在“应用并重启”后生效。": {
+    "ja": "Default は言語を自動検出します。日本語専用モデルは日本語で認識します。\nモデルと言語の設定は「適用して字幕を再起動」で反映されます。",
+    "en": "Default detects the language automatically; Japanese-only models recognize Japanese.\nModel and recognition language changes take effect after applying and restarting captions."
+  },
+  "显示与文字设置即时预览并自动保存。": {
+    "ja": "表示と文字の設定はすぐに反映され、自動保存されます。",
+    "en": "Display and text settings preview immediately and save automatically."
+  },
+  "Luna 的字体、阴影和背景在 Luna 中调整；双色颜色会实时同步。\n上一句保留、正文行数和空闲清空用于两种显示端；其余样式用于独立字幕浮窗。": {
+    "ja": "Luna のフォント・影・背景は Luna で設定します。確定／暫定の色は即時同期されます。\n前の字幕の保持、最大行数、自動消去は両方に適用されます。その他のスタイルは独立ウィンドウ用です。",
+    "en": "Set Luna fonts, shadows and background in Luna; confirmed/draft colors sync immediately.\nPrevious-caption retention, line limits and idle clearing apply to both outputs; other styles apply to the standalone overlay."
+  },
+  "字幕背景不透明度": {
+    "ja": "字幕背景の不透明度",
+    "en": "Caption background opacity"
+  },
+  "背景不透明度": {
+    "ja": "背景の不透明度",
+    "en": "Background opacity"
+  },
+  "背景颜色": {
+    "ja": "背景色",
+    "en": "Background color"
+  },
+  "锁定工具栏（不自动隐藏）": {
+    "ja": "ツールバーを固定（自動で隠さない）",
+    "en": "Keep toolbar visible"
+  },
+  "高度随字幕自动调整": {
+    "ja": "字幕に合わせて高さを調整",
+    "en": "Auto-fit height to captions"
+  },
+  "字幕居中显示": {
+    "ja": "字幕を中央揃え",
+    "en": "Center captions"
+  },
+  "上一句字幕保留秒数": {
+    "ja": "前の字幕の保持秒数",
+    "en": "Previous caption retention in seconds"
+  },
+  "上一句保留": {
+    "ja": "前の字幕を保持",
+    "en": "Keep previous caption"
+  },
+  "字幕正文最多行数": {
+    "ja": "字幕本文の最大行数",
+    "en": "Maximum caption body lines"
+  },
+  "正文最多行数（不含注音）": {
+    "ja": "本文の最大行数（ふりがなを除く）",
+    "en": "Maximum body lines (excluding furigana)"
+  },
+  "字幕无新文字后清空秒数": {
+    "ja": "更新がない場合の消去までの秒数",
+    "en": "Seconds without new text before clearing"
+  },
+  "无新文字后清空": {
+    "ja": "更新がなければ消去",
+    "en": "Clear after no new text"
+  },
+  "鼠标移入浮窗显示工具栏，移出约 1 秒收起。\n拖动空白区域移动；边缘可缩放。鼠标穿透可从托盘取消。\n显示设置即时生效并自动保存。": {
+    "ja": "マウスを重ねるとツールバーを表示し、離して約 1 秒後に隠します。\n空白部分をドラッグして移動、端でサイズ変更。クリック透過はトレイで解除できます。\n表示設定は即時反映・自動保存されます。",
+    "en": "Hover over the overlay to show the toolbar; it hides about 1 second after leaving.\nDrag empty space to move; resize from the edges. Disable click-through from the tray.\nDisplay changes apply immediately and save automatically."
+  },
+  "字幕字体": {
+    "ja": "字幕のフォント",
+    "en": "Caption font"
+  },
+  "字体": {
+    "ja": "フォント",
+    "en": "Font"
+  },
+  "字幕字号": {
+    "ja": "字幕の文字サイズ",
+    "en": "Caption font size"
+  },
+  "字号": {
+    "ja": "文字サイズ",
+    "en": "Font size"
+  },
+  "常规": {
+    "ja": "標準",
+    "en": "Regular"
+  },
+  "中等": {
+    "ja": "中",
+    "en": "Medium"
+  },
+  "半粗": {
+    "ja": "セミボールド",
+    "en": "Semibold"
+  },
+  "粗体": {
+    "ja": "太字",
+    "en": "Bold"
+  },
+  "字幕字重": {
+    "ja": "字幕の太さ",
+    "en": "Caption font weight"
+  },
+  "字重": {
+    "ja": "太さ",
+    "en": "Font weight"
+  },
+  "斜体": {
+    "ja": "斜体",
+    "en": "Italic"
+  },
+  "已确认文字颜色": {
+    "ja": "確定文字の色",
+    "en": "Confirmed text color"
+  },
+  "未确认文字颜色": {
+    "ja": "暫定文字の色",
+    "en": "Draft text color"
+  },
+  "已确认文字": {
+    "ja": "確定文字",
+    "en": "Confirmed text"
+  },
+  "未确认文字": {
+    "ja": "暫定文字",
+    "en": "Draft text"
+  },
+  "注音字号比例": {
+    "ja": "ふりがなの文字サイズ比率",
+    "en": "Furigana font size ratio"
+  },
+  "注音相对字号": {
+    "ja": "ふりがなの相対サイズ",
+    "en": "Relative furigana size"
+  },
+  "字幕行高": {
+    "ja": "字幕の行間",
+    "en": "Caption line height"
+  },
+  "行高": {
+    "ja": "行間",
+    "en": "Line height"
+  },
+  "启用文字阴影": {
+    "ja": "文字の影を有効にする",
+    "en": "Enable text shadow"
+  },
+  "文字阴影颜色": {
+    "ja": "文字の影の色",
+    "en": "Text shadow color"
+  },
+  "阴影颜色": {
+    "ja": "影の色",
+    "en": "Shadow color"
+  },
+  "文字阴影不透明度": {
+    "ja": "文字の影の不透明度",
+    "en": "Text shadow opacity"
+  },
+  "阴影强度": {
+    "ja": "影の濃さ",
+    "en": "Shadow opacity"
+  },
+  "文字阴影模糊半径": {
+    "ja": "文字の影のぼかし半径",
+    "en": "Text shadow blur radius"
+  },
+  "阴影模糊": {
+    "ja": "影のぼかし",
+    "en": "Shadow blur"
+  },
+  "文字阴影水平偏移": {
+    "ja": "文字の影の水平オフセット",
+    "en": "Text shadow horizontal offset"
+  },
+  "文字阴影垂直偏移": {
+    "ja": "文字の影の垂直オフセット",
+    "en": "Text shadow vertical offset"
+  },
+  "水平": {
+    "ja": "水平",
+    "en": "Horizontal"
+  },
+  "垂直": {
+    "ja": "垂直",
+    "en": "Vertical"
+  },
+  "阴影偏移": {
+    "ja": "影のオフセット",
+    "en": "Shadow offset"
+  },
+  "文字描边颜色": {
+    "ja": "文字の縁取り色",
+    "en": "Text outline color"
+  },
+  "描边颜色": {
+    "ja": "縁取り色",
+    "en": "Outline color"
+  },
+  "文字描边宽度": {
+    "ja": "文字の縁取り幅",
+    "en": "Text outline width"
+  },
+  "描边宽度（0 关闭）": {
+    "ja": "縁取り幅（0 で無効）",
+    "en": "Outline width (0 disables)"
+  },
+  "文字样式即时作用于浮窗并自动保存，无需重启。\n字体同时作用于正文和注音，已确认／未确认颜色仍独立保留。": {
+    "ja": "文字スタイルは再起動せず即時反映・自動保存されます。\n本文とふりがなに同じフォントを使い、確定／暫定の色は個別に設定できます。",
+    "en": "Text styles apply immediately and save automatically, without a restart.\nFont applies to body text and furigana; confirmed and draft colors remain independent."
+  },
+  "应用并重启字幕": {
+    "ja": "適用して字幕を再起動",
+    "en": "Apply and restart captions"
+  },
+  "取消下载": {
+    "ja": "ダウンロードを中止",
+    "en": "Cancel download"
+  },
+  "关闭": {
+    "ja": "閉じる",
+    "en": "Close"
+  },
+  "退出字幕程序": {
+    "ja": "字幕アプリを終了",
+    "en": "Exit caption app"
+  },
+  "退出失败，请使用项目目录中的 Stop.cmd 重试。": {
+    "ja": "終了できませんでした。プロジェクト内の Stop.cmd を実行してください。",
+    "en": "Could not exit. Run Stop.cmd in the project folder."
+  },
+  "无法保存面板语言，请稍后重试。": {
+    "ja": "表示言語を保存できませんでした。後でもう一度お試しください。",
+    "en": "Could not save the interface language. Please try again."
+  },
+  "正在读取识别状态…": {
+    "ja": "認識状態を読み込み中…",
+    "en": "Reading recognition status…"
+  },
+  "Windows 实时字幕 · 识别语言请在系统字幕中设置。": {
+    "ja": "Windows リアルタイム字幕 · 認識言語はシステム字幕で設定してください。",
+    "en": "Windows Live Captions · Set recognition language in system captions."
+  },
+  "本地识别失败，请检查模型与运行环境": {
+    "ja": "ローカル認識に失敗しました。モデルと実行環境を確認してください",
+    "en": "Local recognition failed. Check the model and runtime"
+  },
+  "本地模型加载失败，请检查模型与运行环境": {
+    "ja": "ローカルモデルの読み込みに失敗しました。モデルと実行環境を確認してください",
+    "en": "Local model failed to load. Check the model and runtime"
+  },
+  "本地识别失败，请检查推理设备或重新启动字幕": {
+    "ja": "ローカル認識に失敗しました。推論デバイスを確認するか、字幕を再起動してください",
+    "en": "Local recognition failed. Check the inference device or restart captions"
+  },
+  "本地实时识别 · ": {
+    "ja": "ローカルのリアルタイム認識 · ",
+    "en": "Local streaming recognition · "
+  },
+  "无法打开 Windows 实时字幕，需要 Windows 11 22H2 或更新版本。": {
+    "ja": "Windows リアルタイム字幕を開けません。Windows 11 22H2 以降が必要です。",
+    "en": "Could not open Windows Live Captions. Windows 11 22H2 or later is required."
+  },
+  "  选择颜色…": {
+    "ja": "  色を選択…",
+    "en": "  Choose color…"
+  },
+  "选择颜色": {
+    "ja": "色を選択",
+    "en": "Choose color"
+  },
+  "Whisper 屏蔽词表": {
+    "ja": "Whisper 除去語句リスト",
+    "en": "Whisper phrase blocklist"
+  },
+  "每行一条，按字面匹配，忽略大小写和空白。不支持正则表达式。\n命中内容会从字幕中删除，其他正文保留；真实说出的相同内容也会被删除。\n只作用于本地 Whisper 的草稿、最终结果和预读字幕。应用并重启后生效。": {
+    "ja": "1 行に 1 語句。大文字・小文字と空白を無視して文字列を照合します。正規表現は使えません。\n一致箇所だけを削除しますが、実際に話された同じ語句も消去されます。\nローカル Whisper の暫定・確定・先読み字幕に適用。適用して再起動すると反映されます。",
+    "en": "One phrase per line; literal matching ignores case and whitespace. No regular expressions.\nMatching portions are removed, including matching words actually spoken.\nApplies to local Whisper drafts, finals and lookahead captions after applying and restarting."
+  },
+  "Whisper 幻觉屏蔽词表，每行一条": {
+    "ja": "Whisper 除去語句リスト、1 行に 1 語句",
+    "en": "Whisper hallucination blocklist, one phrase per line"
+  },
+  "恢复默认词表": {
+    "ja": "既定のリストに戻す",
+    "en": "Restore default phrases"
+  },
+  "确定": {
+    "ja": "確定",
+    "en": "OK"
+  },
+  "取消": {
+    "ja": "キャンセル",
+    "en": "Cancel"
+  },
+  "Whisper 使用滑动窗口生成实时草稿，支持词汇屏蔽。": {
+    "ja": "Whisper はスライディングウィンドウで暫定字幕を生成し、語句フィルターに対応します。",
+    "en": "Whisper generates live drafts with a sliding window and supports phrase filtering."
+  },
+  "\n当前预读时间轴仅支持 Whisper；本模型继续实时识别。": {
+    "ja": "\n現在の先読みタイムラインは Whisper のみ対応しています。このモデルは通常のリアルタイム認識を続けます。",
+    "en": "\nThe lookahead timeline currently supports Whisper only; this model continues live recognition."
+  },
+  "字幕由 Windows 提供；句末或短暂停顿后标记确认，此确认不是系统模型的 final 事件。": {
+    "ja": "字幕は Windows が提供します。文末や短い無音の後に確定扱いにしますが、システムモデルの final イベントではありません。",
+    "en": "Windows supplies captions. Sentence endings or brief pauses mark them confirmed; this is not a model final event."
+  },
+  "日语专用；滑动窗口草稿，支持 Whisper 词汇屏蔽。": {
+    "ja": "日本語専用。スライディングウィンドウの暫定字幕と Whisper 語句フィルターに対応。",
+    "en": "Japanese only; sliding-window drafts with Whisper phrase filtering."
+  },
+  "Windows 原生 audio.cpp；滑动窗口草稿。所用原生端口的 Qwen 流式输出会等待音频结束，因此当前不使用该路径。": {
+    "ja": "Windows ネイティブの audio.cpp。暫定結果はスライディングウィンドウ方式です。このポートの Qwen ストリーミングは音声終了を待つため、現在は使用していません。",
+    "en": "Native Windows audio.cpp with sliding-window drafts. This port's Qwen streaming waits for audio to end, so that path is currently unused."
+  },
+  "Windows 原生 audio.cpp；原生流式，实际延迟取决于硬件。": {
+    "ja": "Windows ネイティブの audio.cpp。有状態ストリーミングで、遅延はハードウェアに依存します。",
+    "en": "Native Windows audio.cpp; stateful streaming, with latency depending on hardware."
+  },
+  "日语专用；CPU 轻量运行，滑动窗口草稿；仅支持日语或自动。": {
+    "ja": "日本語専用。CPU 上で軽量に動作し、スライディングウィンドウで暫定結果を生成。日本語または自動検出のみ対応。",
+    "en": "Japanese only; lightweight CPU execution with sliding-window drafts. Choose Japanese or Auto."
+  },
+  "正在重启字幕…": {
+    "ja": "字幕を再起動中…",
+    "en": "Restarting captions…"
+  },
+  "准备模型与环境并应用": {
+    "ja": "モデルと実行環境を準備して適用",
+    "en": "Prepare model and runtime, then apply"
+  },
+  "设置已保存，正在重启字幕程序…": {
+    "ja": "設定を保存しました。字幕アプリを再起動中…",
+    "en": "Settings saved. Restarting the caption app…"
+  },
+  "字幕重启失败，请检查 logs/launcher.stderr.log；模型运行错误见 logs/controller.stderr.log。": {
+    "ja": "字幕を再起動できませんでした。logs/launcher.stderr.log を確認してください。モデルのエラーは logs/controller.stderr.log を参照。",
+    "en": "Caption restart failed. Check logs/launcher.stderr.log; model errors are in logs/controller.stderr.log."
+  },
+  "本地模型启动失败，请更换模型或推理设备后重试。": {
+    "ja": "ローカルモデルを起動できませんでした。モデルか推論デバイスを変更して再試行してください。",
+    "en": "Local model failed to start. Try a different model or inference device."
+  },
+  "Windows 字幕已启动，请在系统窗口完成语言包设置并选择日语。": {
+    "ja": "Windows 字幕が起動しました。システムウィンドウで言語パックを設定し、日本語を選んでください。",
+    "en": "Windows captions started. Complete language pack setup and select Japanese in the system window."
+  },
+  "字幕已重启成功。": {
+    "ja": "字幕の再起動が完了しました。",
+    "en": "Captions restarted successfully."
+  },
+  "等待字幕启动超时，请检查识别状态和 logs/controller.stderr.log；可以重试。": {
+    "ja": "字幕の起動がタイムアウトしました。認識状態と logs/controller.stderr.log を確認して再試行してください。",
+    "en": "Caption startup timed out. Check recognition status and logs/controller.stderr.log, then retry."
+  },
+  "正在下载模型，当前识别继续运行…": {
+    "ja": "モデルをダウンロード中。現在の認識は継続します…",
+    "en": "Downloading the model; current recognition continues…"
+  },
+  "正在校验模型…": {
+    "ja": "モデルを検証中…",
+    "en": "Verifying model…"
+  },
+  "下载未完成，仍使用原来的设置。可以重试，已有进度会保留。": {
+    "ja": "ダウンロードが完了していません。元の設定を維持します。進捗は保存されるため再試行できます。",
+    "en": "Download incomplete; previous settings remain active. You can retry with progress preserved."
+  },
+  "模型约 {size} MB，下载期间当前识别继续运行。": {
+    "ja": "モデルは約 {size} MB。ダウンロード中も現在の認識を継続します。",
+    "en": "Model size: about {size} MB. Current recognition continues during download."
+  },
+  "正在准备 {model}：已下载 {size} MB": {
+    "ja": "{model} を準備中：{size} MB ダウンロード済み",
+    "en": "Preparing {model}: downloaded {size} MB"
+  },
+  "无法启动字幕程序。": {
+    "ja": "字幕アプリを起動できませんでした。",
+    "en": "Could not start the caption app."
+  },
+  "启动失败，仍使用原来的设置。": {
+    "ja": "起動に失敗しました。元の設定を維持します。",
+    "en": "Startup failed; previous settings remain active."
+  },
+  "所选模型只支持日语，请选择日语或 Default": {
+    "ja": "選択したモデルは日本語専用です。日本語か Default を選んでください",
+    "en": "The selected model supports Japanese only; choose Japanese or Default"
+  },
+  "不支持的设置字段": {
+    "ja": "未対応の設定項目",
+    "en": "Unsupported setting field"
+  },
+  "无法读取字幕配置": {
+    "ja": "字幕設定を読み込めません",
+    "en": "Could not read caption configuration"
+  },
+  "仅支持本地识别": {
+    "ja": "ローカル認識のみ対応しています",
+    "en": "Only local recognition is supported"
+  },
+  "请选择 Whisper 草稿识别精度": {
+    "ja": "Whisper 暫定認識の精度を選んでください",
+    "en": "Select Whisper draft accuracy"
+  },
+  "Whisper 标准解码选项无效": {
+    "ja": "Whisper 標準デコードの設定が無効です",
+    "en": "Invalid standard Whisper decoding option"
+  },
+  "请选择支持的识别来源": {
+    "ja": "対応している認識ソースを選んでください",
+    "en": "Select a supported recognition source"
+  },
+  "屏蔽幻觉词汇开关无效": {
+    "ja": "ハルシネーション語句フィルターの設定が無効です",
+    "en": "Invalid hallucination filter option"
+  },
+  "请选择支持的字幕显示端": {
+    "ja": "対応している字幕表示先を選んでください",
+    "en": "Select a supported caption output"
+  },
+  "请选择支持的识别语言": {
+    "ja": "対応している認識言語を選んでください",
+    "en": "Select a supported recognition language"
+  },
+  "请选择支持的本地模型": {
+    "ja": "対応しているローカルモデルを選んでください",
+    "en": "Select a supported local model"
+  },
+  "请选择支持的本地推理设备": {
+    "ja": "対応しているローカル推論デバイスを選んでください",
+    "en": "Select a supported local inference device"
+  },
+  "本地设备编号必须为自动或 0–15": {
+    "ja": "デバイス番号は自動または 0–15 で指定してください",
+    "en": "Device index must be Auto or 0–15"
+  },
+  "流式更新间隔必须在 0.25–2 秒之间": {
+    "ja": "更新間隔は 0.25–2 秒で指定してください",
+    "en": "Streaming update interval must be 0.25–2 seconds"
+  },
+  "请先下载本地模型并准备运行环境": {
+    "ja": "先にローカルモデルと実行環境を準備してください",
+    "en": "Download the local model and prepare its runtime first"
+  },
+  "字幕识别": {
+    "ja": "字幕認識",
+    "en": "Caption recognition"
+  },
+  "退出失败，请使用 Stop.cmd 重试。": {
+    "ja": "終了できませんでした。Stop.cmd を実行してください。",
+    "en": "Could not exit. Run Stop.cmd to retry."
+  },
+  "屏蔽词表需要字符串列表": {
+    "ja": "除去語句リストには文字列のリストが必要です",
+    "en": "The blocklist must be a list of strings"
+  },
+  "屏蔽词表最多 200 条，每条 1–200 字，不能包含换行或控制字符。": {
+    "ja": "除去語句は最大 200 件、各 1–200 文字です。改行や制御文字は使えません。",
+    "en": "Use at most 200 phrases of 1–200 characters each, without line breaks or control characters."
+  },
+  "屏蔽词表最多 200 条": {
+    "ja": "除去語句は最大 200 件です",
+    "en": "The blocklist allows at most 200 phrases"
+  },
+  "撤销未应用修改": {
+    "ja": "未適用の変更を取り消す",
+    "en": "Discard unapplied changes"
+  },
+  "识别设置有未应用修改；关闭窗口将放弃这些修改。": {
+    "ja": "認識設定に未適用の変更があります。ウィンドウを閉じると破棄されます。",
+    "en": "Recognition changes are not applied. Closing this window discards them."
+  },
+  "字幕未运行；可点击“应用并重启字幕”启动。": {
+    "ja": "字幕は停止中です。「適用して字幕を再起動」で開始できます。",
+    "en": "Captions are stopped. Use Apply & restart captions to start."
+  },
+  "正在加载本地模型 · ": {
+    "ja": "ローカルモデルを読み込み中 · ",
+    "en": "Loading local model · "
+  },
+  "注音语言": {
+    "ja": "ふりがなの言語",
+    "en": "Furigana language"
+  }
+}

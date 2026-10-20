@@ -1,0 +1,17 @@
+# Tested on Windows, Python 3.13.16. Install before: pip install -e . --no-deps
+certifi==2026.7.22
+charset-normalizer==3.5.2
+idna==3.20
+requests==2.34.2
+SudachiDict-small==20260723
+SudachiPy==0.6.11
+urllib3==2.8.0
+PySide6==6.12.0
+PySide6_Addons==6.12.0
+PySide6_Essentials==6.12.0
+PySide6_Pdf==6.12.0.140
+PySide6_WebEngine==6.12.0.140
+shiboken6==6.12.0
+QtAwesome==1.4.2
+QtPy==2.4.3
+packaging==26.3

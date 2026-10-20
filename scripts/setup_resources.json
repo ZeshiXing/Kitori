@@ -1,0 +1,43 @@
+{
+  "uv": {
+    "version": "0.13.3",
+    "urls": [
+      "https://github.com/astral-sh/uv/releases/download/0.13.3/uv-x86_64-pc-windows-msvc.zip"
+    ],
+    "sha256": "bb701bd35b586c45966654ea2703c9bd116a6a4fc0a8ca755bd644c2c41c5ebe",
+    "size": 15204998
+  },
+  "python": "3.13.16",
+  "silero": {
+    "version": "1e261b036686cd0017d500ee96acd1c4ba572a9d",
+    "urls": [
+      "https://codeload.github.com/snakers4/silero-vad/zip/1e261b036686cd0017d500ee96acd1c4ba572a9d"
+    ],
+    "sha256": "b3659da33c329f2581e0240b73b32eaf1e0811a8b8670694a832f7119ad45d7e",
+    "size": 29330470,
+    "source_root": "silero-vad-1e261b036686cd0017d500ee96acd1c4ba572a9d",
+    "target_root": "snakers4_silero-vad_master",
+    "file_checksums": {
+      "src/silero_vad/utils_vad.py": "7e0f9b3334ee4feb79abcf2251be12458329077bce28c8540878ed9d35e5aa6b",
+      "src/silero_vad/data/silero_vad.jit": "e1122837f4154c511485fe0b9c64455f7b929c96fbb8d79fbdb336383ebd3720"
+    },
+    "filename": "silero-vad-1e261b036686cd0017d500ee96acd1c4ba572a9d.zip"
+  },
+  "tiger": {
+    "version": "v1.3.20.1",
+    "urls": [
+      "https://eu2.contabostorage.com/bf1a89517e2643359087e5d8219c0c67:projects/whispering/whispering-tiger1.3.20.1_win.zip",
+      "https://usc1.contabostorage.com/8fcf133c506f4e688c7ab9ad537b5c18:projects/whispering/whispering-tiger1.3.20.1_win.zip"
+    ],
+    "sha256": "a0bbd5dd59b5cc1014f473580f07eebeffc44309a343eadfd7a5c0935fc25545",
+    "size": 5122715193
+  },
+  "luna": {
+    "version": "v12.1.2.11",
+    "urls": [
+      "https://github.com/HIllya51/LunaTranslator/releases/download/v12.1.2.11/LunaTranslator_x64.zip"
+    ],
+    "sha256": "64044a65132feef41ecf87dce51ce8a61c592d72807a791be9de0df25e9e153e",
+    "size": 66661838
+  }
+}

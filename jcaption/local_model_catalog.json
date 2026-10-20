@@ -1,0 +1,112 @@
+{
+  "kotoba-v2": {
+    "label": "Kotoba-Whisper v2.0 · 日语",
+    "backend": "whisper",
+    "repository": "kotoba-tech/kotoba-whisper-v2.0-faster",
+    "revision": "f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc",
+    "files": {
+      "config.json": {
+        "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster/resolve/f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc/config.json",
+        "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9",
+        "size": 2394
+      },
+      "model.bin": {
+        "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster/resolve/f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc/model.bin",
+        "sha256": "60d2bc2e33de9d43f2745be09caefe1161acab670f6796d4a750d8d848382b36",
+        "size": 1512927867
+      },
+      "preprocessor_config.json": {
+        "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster/resolve/f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc/preprocessor_config.json",
+        "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711",
+        "size": 340
+      },
+      "tokenizer.json": {
+        "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster/resolve/f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc/tokenizer.json",
+        "sha256": "f70c9740a90657b489cf05b0fa0605c1d497db542f11a70a8cc80a025c94c7d8",
+        "size": 2481381
+      },
+      "vocabulary.json": {
+        "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster/resolve/f44edd35eaeb2274e85ac7b31fb2c6f59ff1c4bc/vocabulary.json",
+        "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1",
+        "size": 1068114
+      }
+    },
+    "note": "日语专用；滑动窗口草稿，支持 Whisper 词汇屏蔽。",
+    "streaming": "windowed"
+  },
+  "qwen3-asr-0.6b": {
+    "label": "Qwen3-ASR 0.6B · Q8",
+    "backend": "qwen3_asr",
+    "repository": "audio-cpp/audio.cpp-gguf",
+    "revision": "661a224e9d9adbd49c01626f85e426f5f425d771",
+    "files": {
+      "qwen3-asr-0.6b-q8_0.gguf": {
+        "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf/resolve/661a224e9d9adbd49c01626f85e426f5f425d771/Qwen3-ASR-0.6B-GGUF/qwen3-asr-0.6b-q8_0.gguf",
+        "sha256": "6c44ec2fb4cee513892d7863c1fcc3ea6b699ffa4d899b0ef4ab19956d9544f7",
+        "size": 1151272416
+      }
+    },
+    "note": "Windows 原生 audio.cpp；滑动窗口草稿。所用原生端口的 Qwen 流式输出会等待音频结束，因此当前不使用该路径。",
+    "streaming": "windowed"
+  },
+  "qwen3-asr-1.7b": {
+    "label": "Qwen3-ASR 1.7B · Q8",
+    "backend": "qwen3_asr",
+    "repository": "audio-cpp/audio.cpp-gguf",
+    "revision": "661a224e9d9adbd49c01626f85e426f5f425d771",
+    "files": {
+      "qwen3-asr-1.7b-q8_0.gguf": {
+        "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf/resolve/661a224e9d9adbd49c01626f85e426f5f425d771/Qwen3-ASR-1.7B-GGUF/qwen3-asr-1.7b-q8_0.gguf",
+        "sha256": "da4fc2ac7f24dee784d1684eb1f35836cdbf559519452ae11777670734c0a4f8",
+        "size": 2473010048
+      }
+    },
+    "note": "Windows 原生 audio.cpp；滑动窗口草稿。所用原生端口的 Qwen 流式输出会等待音频结束，因此当前不使用该路径。",
+    "streaming": "windowed"
+  },
+  "voxtral-realtime": {
+    "label": "Voxtral Mini 4B Realtime · Q4_K",
+    "backend": "voxtral_realtime",
+    "repository": "audio-cpp/audio.cpp-gguf",
+    "revision": "661a224e9d9adbd49c01626f85e426f5f425d771",
+    "files": {
+      "voxtral-mini-4b-realtime-2602-q4_k.gguf": {
+        "url": "https://huggingface.co/audio-cpp/audio.cpp-gguf/resolve/661a224e9d9adbd49c01626f85e426f5f425d771/Voxtral-Mini-4B-Realtime-2602-GGUF/voxtral-mini-4b-realtime-2602-q4_k.gguf",
+        "sha256": "8cafef18ea3e4cad81da8ffc4e72b69d2eab2c159c2e68428e2e088accbfc7f8",
+        "size": 3097662432
+      }
+    },
+    "note": "Windows 原生 audio.cpp；原生流式，实际延迟取决于硬件。",
+    "streaming": "native"
+  },
+  "reazonspeech-k2": {
+    "label": "ReazonSpeech K2 v2 · 日语 INT8",
+    "backend": "reazon",
+    "repository": "reazon-research/reazonspeech-k2-v2",
+    "revision": "291488c8151be24d7da4bf7af26e533fad96e407",
+    "files": {
+      "encoder-epoch-99-avg-1.int8.onnx": {
+        "url": "https://huggingface.co/reazon-research/reazonspeech-k2-v2/resolve/291488c8151be24d7da4bf7af26e533fad96e407/encoder-epoch-99-avg-1.int8.onnx",
+        "sha256": "2c7bd08a8a99f9ddd0d9e458456577b1f6279214e51426f114f9eced44c54e1d",
+        "size": 154670139
+      },
+      "decoder-epoch-99-avg-1.int8.onnx": {
+        "url": "https://huggingface.co/reazon-research/reazonspeech-k2-v2/resolve/291488c8151be24d7da4bf7af26e533fad96e407/decoder-epoch-99-avg-1.int8.onnx",
+        "sha256": "8f0bff94d38797b03b762634ed03211a8e303d06cc4603cdd0cf4199d6eb1485",
+        "size": 2959337
+      },
+      "joiner-epoch-99-avg-1.int8.onnx": {
+        "url": "https://huggingface.co/reazon-research/reazonspeech-k2-v2/resolve/291488c8151be24d7da4bf7af26e533fad96e407/joiner-epoch-99-avg-1.int8.onnx",
+        "sha256": "49cc7ea1d3d35a40a27442db5e89996da64bf0e683a903dce76e99e57a12e4de",
+        "size": 2696970
+      },
+      "tokens.txt": {
+        "url": "https://huggingface.co/reazon-research/reazonspeech-k2-v2/resolve/291488c8151be24d7da4bf7af26e533fad96e407/tokens.txt",
+        "sha256": "2c3ac659818a48a0c04010e0593bbc4d7c8a24a054340b01131499c05fd52def",
+        "size": 45754
+      }
+    },
+    "note": "日语专用；CPU 轻量运行，滑动窗口草稿；仅支持日语或自动。",
+    "streaming": "windowed"
+  }
+}

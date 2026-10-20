@@ -1,0 +1,30 @@
+{
+  "mode": "local",
+  "recognition_source": "models",
+  "capture_pipeline": "continuous",
+  "capture_vad_threshold": 0.4,
+  "caption_port": 8766,
+  "stream_window_seconds": 15,
+  "luna_output_enabled": false,
+  "display_mode": "overlay",
+  "language": "ja",
+  "luna_url": "http://127.0.0.1:23733",
+  "local_model": "large-v3-turbo",
+  "local_native_backend": "vulkan",
+  "local_native_device": -1,
+  "local_stream_chunk_seconds": 0.5,
+  "whisper_draft_beam": 1,
+  "whisper_standard_decode": false,
+  "whisper_blocklist_enabled": false,
+  "whisper_blocklist": [
+    "ご視聴ありがとうございました",
+    "ご視聴ありがとうございます",
+    "チャンネル登録をお願いします",
+    "Thank you for watching",
+    "Thanks for watching"
+  ],
+  "device": "cuda",
+  "compute_type": "float16",
+  "ffmpeg_bin": "",
+  "save_transcripts": false
+}

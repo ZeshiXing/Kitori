@@ -1,0 +1,17 @@
+:root { color-scheme:dark; font-family: "Segoe UI", "Yu Gothic UI", sans-serif; }
+* { box-sizing:border-box; }
+body { margin:0; background:#11151c; color:#f1f4f9; }
+main { max-width:1100px; margin:0 auto; padding:32px; }
+header,footer { display:flex; justify-content:space-between; gap:16px; color:#9ba9bb; font-size:14px; }
+.brand { font-weight:600; letter-spacing:.03em; color:#d8e2ef; }
+#connection { color:#89c9b5; }
+.caption-panel { margin:32px 0 24px; padding:30px; background:#1b222e; border:1px solid #303d50; border-radius:16px; min-height:240px; }
+#phase { color:#99b0ca; font-size:13px; margin-bottom:30px; }
+#caption { font-size:clamp(28px,4.5vw,44px); line-height:2.15; overflow-wrap:anywhere; min-height:110px; }
+rt { font-size:.43em; color:#afd4ed; }
+.draft { color:#a9b6c8; }
+.draft rt { color:#96a8bd; }
+#hint { color:#8c9daf; margin-top:18px; font-size:13px; }
+#history { color:#aebbd0; margin:0 12px 28px; }
+.history-line { font-size:21px; line-height:2.3; padding:12px 0; border-bottom:1px solid #263142; }
+footer { padding-top:20px; border-top:1px solid #263142; }
